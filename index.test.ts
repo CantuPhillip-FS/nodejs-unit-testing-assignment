@@ -1,4 +1,11 @@
-const { add, subtract, divide, multiply } = require("./index");
+const {
+  add,
+  subtract,
+  divide,
+  multiply,
+  getSquareRoot,
+  getMaxValue,
+} = require("./index");
 
 /* -------------------------------------------------------------------------- */
 /*                         1st Test Suite: Basic Math                         */
@@ -18,5 +25,18 @@ describe("Testing Basic math operations", () => {
 
   test("two numbers are multipled and a product is returned", () => {
     expect(multiply(3, 9)).toBe(27);
+  });
+});
+
+/* -------------------------------------------------------------------------- */
+/*                        2nd Test Suite: Advanced Math                       */
+/* -------------------------------------------------------------------------- */
+describe("Testing Advance Math operations", () => {
+  test("get the square root of a single number input", () => {
+    expect(getSquareRoot(9)).toBe(3);
+  });
+
+  test("get the larger value between the two number inputs given", () => {
+    expect(getMaxValue(99, 76)).toBe(99);
   });
 });
