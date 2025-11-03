@@ -1,4 +1,4 @@
-const { add, subtract, divide, multipy } = require("./index");
+const { add, subtract, divide, multiply } = require("./index");
 
 /* -------------------------------------------------------------------------- */
 /*                         1st Test Suite: Basic Math                         */
@@ -13,10 +13,10 @@ describe("Testing Basic math operations", () => {
   });
 
   test("two numbers are divided and a quotient is returned", () => {
-    expect(divide(100, 50).toBe(2));
+    expect(divide(100, 50)).toBe(2);
   });
 
   test("two numbers are multipled and a product is returned", () => {
-    expect(multipy(3, 9).toBe(27));
+    expect(multiply(3, 9)).toBe(27);
   });
 });
