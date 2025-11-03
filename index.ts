@@ -1,3 +1,6 @@
+/* -------------------------------------------------------------------------- */
+/*                            Basic Math Operations                           */
+/* -------------------------------------------------------------------------- */
 export const add = (numOne: number, numTwo: number): number => numOne + numTwo;
 
 export const subtract = (numOne: number, numTwo: number): number =>
@@ -9,6 +12,9 @@ export const divide = (dividend: number, divisor: number): number =>
 export const multiply = (numOne: number, numTwo: number): number =>
   numOne * numTwo;
 
+/* -------------------------------------------------------------------------- */
+/*                           Advance Math Operations                          */
+/* -------------------------------------------------------------------------- */
 export const getSquareRoot = (number: number): number => Math.sqrt(number);
 
 export const getMaxValue = (numOne: number, numTwo: number): number =>
