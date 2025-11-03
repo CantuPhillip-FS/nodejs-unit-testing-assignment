@@ -1,0 +1,19 @@
+Test with Jest
+
+Testing the Math Object
+
+Write tests to:
+- Under one describe / test suite
+Basic Math (no Math object)
+1. Add
+2. Subtract
+3. Divide
+4. Multiply
+
+- Under a second describe / test suite
+Advanced Math (use Math object)
+5. Square Root
+6. Max
+
+- Upload to GitHub
+- Provide a video of running tests
